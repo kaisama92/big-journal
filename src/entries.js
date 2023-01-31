@@ -1,6 +1,5 @@
 // entry object business logic
-
-function Entry(title, entry){
+export default function Entry(title, entry){
   this.title = title;
   this.entry = entry;
 }
@@ -29,3 +28,4 @@ Entry.prototype.countCharacters = function (){
   this.vowels = vowelsCount;
   this.characters = charCount;
 };
+
